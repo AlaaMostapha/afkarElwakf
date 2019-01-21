@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- boostrap css -->
+    <link rel="stylesheet" type="text/css" href="dist/css/bootstrap.min.css">
+    <!-- bootsnipp -->
+    <!-- <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="dist/css/style.css">
+    <link rel="stylesheet" href="dist/css/kyfa tktob fekra.css">
+    <title>كيف تكتب فكره</title>
+    <style>
+        #more {display: none;}
+</style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light " style="background-color: steelblue;">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="dist/img/logo-small.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse py-2" id="navbarNavAltMarkup">
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link active" href="index.html#about" style="color:white;font-family: Cairo-semiBold;font-size: 18px;">عن
+                افكار الوقف <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="index.html#our_ideas" style="color:white;font-family: Cairo-semiBold;font-size: 18px;">افكارنا</a>
+              <a class="nav-item nav-link" href="index5 khazanet el waf.html"  targert="_blanck" style="color:white;font-family: Cairo-semiBold;font-size: 18px;">خزانة
+                الوقف</a>
+              <a class="nav-item nav-link" href="index6 news.html"  targert="_blanck" style="color:white;font-family: Cairo-semiBold;font-size: 18px;">مقالات
+                واخبار</a>
+              <a class="nav-item nav-link" href="index.html#contactUS" style="color:white;font-family: Cairo-semiBold;font-size: 18px;">اتصل
+                بنا </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="section-title" style="margin-bottom:1rem;border-bottom: 2px solid steelblue;height: 47px;background: #eee;position: relative;">
+            <div class="Blindness" style="background: steelblue;position: absolute;right: 46%;height: 40px;bottom: 0;">
+                <h3 class="section-title-name" style="padding: 0 12px 0 10px;color: #fff;font-family: cairo-regular;font-size: 18px;line-height: 45px;">كيف تكتب فكرة</h3>
+            </div>
+       </div>
+
+    <div class="container text-right " id="HowToWriteIdea">
+        <div class="row mb-4">
+            <div class="col-lg-12">
+                <img src="dist/img/writeidea.jpg" alt="" style="width: 100%;">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-12">
+                <h3>كل ما تحتاجه لصياغة فكرة مبتكرة في الاوقاف هي الامور التالية:</h3>
+                <ul class="mr-3" style="list-style: none;">
+                    <li class="li">اسم الفكرة</li>
+                    <li class="li">اهداف الفكرة</li>
+                    <li class="li">الشريحة المستهدفة</li>
+                    <li class="li">وصف الفكرة و تشمل <p onclick="myFunction()" id="myBtn" style="display: inline;color: steelblue;cursor: pointer;">اقراء
+                            المزيد</p><span id="dots" style="color: steelblue">...</span>
+                        <ol id="more">
+                            <li style="margin-right: 2rem">شرح عام عن الفكرة</li>
+                            <li style="margin-right: 2rem">طريقة و نظام العمل بالفكرة</li>
+                            <li style="margin-right: 2rem">الاشارة الى ديمومة الاصل</li>
+                            <li style="margin-right: 2rem">معرفة طريقة تطوير و صيانة الفكرة اذا احتاجت لذلك</li>
+                            <li style="margin-right: 2rem">عوامل نجاح الفكرة و التحديات التي قد تواجهها</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- bootstrap -->
+    <script type="text/javascript" src="dist/js/jquery.min.js"></script>
+    <script type="text/javascript" src="dist/js/bootstrap.min.js"></script>
+    <script>
+        function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+
+            if (dots.style.display === "none") {
+                console.log(dots.style.display)
+                dots.style.display = "inline";
+                btnText.innerHTML = "اقرء المزيد";
+                moreText.style.display = "none";
+            } else {
+                console.log(dots.style.display)
+                dots.style.display = "none";
+                btnText.innerHTML = "اقرء اقل";
+                moreText.style.display = "inline";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

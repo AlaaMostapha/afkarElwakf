@@ -1,0 +1,9 @@
+
+.ri-grid ul li,
+.ri-grid ul li a{
+	width: 135px;
+    height: 134px;
+}
+.ri-grid ul li a img{
+	width: 100%;
+}
